@@ -37,7 +37,7 @@ h1 {
 }
 
 .header-sub {
-  font-size: 0.9rem;
+  font-size: 16px;
   color: var(--text);
   font-style: italic;
 }
@@ -94,7 +94,7 @@ h1 {
 .badge-yes { background: var(--green-bg); color: var(--green-text); border: 1px solid var(--green-border); }
 .badge-no  { background: var(--amber-bg); color: var(--amber-text); border: 1px solid var(--amber-border); }
 
-.wf-sub { font-size: 0.85rem; color: var(--text); font-style: italic; line-height: 1.5; }
+.wf-sub { font-size: 15px; color: var(--text); font-style: italic; line-height: 1.5; }
 
 .not-fullstack {
   background: var(--amber-bg);
@@ -105,8 +105,8 @@ h1 {
 }
 
 .nfs-title { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--amber-text); margin-bottom: 6px; }
-.nfs-body  { font-size: 12px; color: var(--text); line-height: 1.6; }
-.nfs-steps { margin: 6px 0 0; padding-left: 18px; font-size: 12px; color: var(--text); line-height: 1.75; }
+.nfs-body  { font-size: 14px; color: var(--text); line-height: 1.6; }
+.nfs-steps { margin: 6px 0 0; padding-left: 18px; font-size: 14px; color: var(--text); line-height: 1.75; }
 
 .dim-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; margin-bottom: 1.25rem; }
 
@@ -114,7 +114,7 @@ h1 {
 
 .dim-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-2); margin-bottom: 5px; }
 
-.dim-value { font-size: 13px; color: var(--text); line-height: 1.6; }
+.dim-value { font-size: 15px; color: var(--text); line-height: 1.6; }
 
 .ns-badge {
   display: inline-block;
@@ -137,13 +137,13 @@ h1 {
 .tc-eng  .tt { color: var(--blue-text); }
 .tc-info .tt { color: var(--pink-text); }
 
-.tb { font-size: 12px; line-height: 1.6; color: var(--text); }
+.tb { font-size: 14px; line-height: 1.6; color: var(--text); }
 
 .callout {
   background: var(--surface2);
   border-left: 3px solid var(--border-mid);
   padding: 10px 14px;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text);
   line-height: 1.6;
   margin-top: 10px;
@@ -156,7 +156,7 @@ h1 {
 
 .surface-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-2); margin-bottom: 4px; }
 
-.surface-val { font-size: 12px; color: var(--text); line-height: 1.55; }
+.surface-val { font-size: 14px; color: var(--text); line-height: 1.55; }
 
 .vs-section { border: 1px solid var(--border); border-radius: var(--radius-lg); margin-top: 1.25rem; overflow: hidden; }
 
@@ -172,8 +172,8 @@ h1 {
 
 .vs-header:focus-visible { outline: 2px solid var(--blue-text); outline-offset: -2px; }
 
-.vs-title   { font-size: 13px; color: var(--text); margin: 0; }
-.vs-subtitle{ font-size: 11px; color: var(--text); margin: 0; font-style: italic; }
+.vs-title   { font-size: 15px; color: var(--text); margin: 0; }
+.vs-subtitle{ font-size: 13px; color: var(--text); margin: 0; font-style: italic; }
 
 .vs-chevron { width: 14px; height: 14px; flex-shrink: 0; transition: transform 0.2s; }
 .vs-chevron.open { transform: rotate(180deg); }
@@ -192,22 +192,22 @@ h1 {
 
 .vs-col { background: var(--surface); padding: 13px 15px; }
 
-.vs-col-head { font-size: 13px; color: var(--text); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.vs-col-head { font-size: 15px; color: var(--text); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
 
 .vs-row-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-2); margin: 8px 0 3px; }
 
-.vs-row-val { font-size: 12px; color: var(--text); line-height: 1.5; margin-bottom: 4px; }
+.vs-row-val { font-size: 14px; color: var(--text); line-height: 1.5; margin-bottom: 4px; }
 
 .win { font-size: 10px; padding: 2px 6px; border-radius: 4px; margin-left: 5px; vertical-align: middle; }
 .win-a   { background: var(--green-bg); color: var(--green-text); border: 1px solid var(--green-border); }
 .win-b   { background: var(--blue-bg);  color: var(--blue-text);  border: 1px solid var(--blue-border); }
 .win-tie { background: var(--surface2); color: var(--text-2);     border: 1px solid var(--border-mid); }
 
-.vs-note { font-size: 12px; color: var(--text); line-height: 1.6; padding-top: 10px; border-top: 1px solid var(--border); font-style: italic; }
+.vs-note { font-size: 14px; color: var(--text); line-height: 1.6; padding-top: 10px; border-top: 1px solid var(--border); font-style: italic; }
 
-.rec-intro { font-size: 13px; color: var(--text); margin-bottom: 1rem; font-style: italic; }
+.rec-intro { font-size: 15px; color: var(--text); margin-bottom: 1rem; font-style: italic; }
 
-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
 
 caption { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-2); text-align: left; padding-bottom: 8px; }
 
@@ -228,7 +228,7 @@ tbody tr:hover td, tbody tr:hover th { background: var(--surface2); }
 .p-purple { background: var(--purple-bg); color: var(--purple-text); border: 1px solid var(--purple-border); }
 .p-gray   { background: var(--surface2);  color: var(--text-2);      border: 1px solid var(--border-mid); }
 
-.why { font-size: 11px; color: var(--text); display: block; margin-top: 5px; font-style: italic; }
+.why { font-size: 13px; color: var(--text); display: block; margin-top: 5px; font-style: italic; }
 
 @media (max-width: 600px) {
   .dim-grid, .trade-row, .vs-grid, .surface-grid { grid-template-columns: 1fr; }
@@ -244,4 +244,4 @@ tbody tr:hover td, tbody tr:hover th { background: var(--surface2); }
 }
 
 .sw-title { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: #791f1f; margin-bottom: 6px; }
-.sw-body  { font-size: 12px; color: var(--text); line-height: 1.6; }
+.sw-body  { font-size: 14px; color: var(--text); line-height: 1.6; }
